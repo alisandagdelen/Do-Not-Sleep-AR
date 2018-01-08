@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnPlay: UIButton!
+    @IBOutlet weak var btnReset: UIButton!
+    @IBOutlet weak var lblTime: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +25,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func actPlay(_ sender: UIButton) {
+    }
+    
+    @IBAction func actReset(_ sender: UIButton) {
+    }
     /*
     // MARK: - Navigation
 
