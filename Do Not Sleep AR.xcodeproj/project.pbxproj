@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3BDD9AEB2003E63E0012ACDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD9AEA2003E63E0012ACDB /* AppDelegate.swift */; };
-		3BDD9AED2003E63E0012ACDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD9AEC2003E63E0012ACDB /* ViewController.swift */; };
 		3BDD9AF02003E63E0012ACDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9AEE2003E63E0012ACDB /* Main.storyboard */; };
 		3BDD9AF22003E63E0012ACDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9AF12003E63E0012ACDB /* Assets.xcassets */; };
 		3BDD9AF52003E63E0012ACDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9AF32003E63E0012ACDB /* LaunchScreen.storyboard */; };
 		3BDD9B002003E63F0012ACDB /* Do_Not_Sleep_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD9AFF2003E63F0012ACDB /* Do_Not_Sleep_ARTests.swift */; };
 		3BDD9B0B2003E63F0012ACDB /* Do_Not_Sleep_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD9B0A2003E63F0012ACDB /* Do_Not_Sleep_ARUITests.swift */; };
+		3BDD9B192003EA9E0012ACDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD9B182003EA9E0012ACDB /* ViewController.swift */; };
+		E0E000F76D47DAB027BCBFF1 /* Pods_Do_Not_Sleep_AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48BA965EE44F290FE93C28 /* Pods_Do_Not_Sleep_AR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		3BDD9AE72003E63E0012ACDB /* Do Not Sleep AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do Not Sleep AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDD9AEA2003E63E0012ACDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BDD9AEC2003E63E0012ACDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BDD9AEF2003E63E0012ACDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BDD9AF12003E63E0012ACDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BDD9AF42003E63E0012ACDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,10 @@
 		3BDD9B062003E63F0012ACDB /* Do Not Sleep ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do Not Sleep ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDD9B0A2003E63F0012ACDB /* Do_Not_Sleep_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_Not_Sleep_ARUITests.swift; sourceTree = "<group>"; };
 		3BDD9B0C2003E63F0012ACDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDD9B182003EA9E0012ACDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87409FA795B0150CB4046692 /* Pods-Do Not Sleep AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do Not Sleep AR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Do Not Sleep AR/Pods-Do Not Sleep AR.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E86B504093F833EB886EBC /* Pods-Do Not Sleep AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do Not Sleep AR.release.xcconfig"; path = "Pods/Target Support Files/Pods-Do Not Sleep AR/Pods-Do Not Sleep AR.release.xcconfig"; sourceTree = "<group>"; };
+		AC48BA965EE44F290FE93C28 /* Pods_Do_Not_Sleep_AR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Do_Not_Sleep_AR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E000F76D47DAB027BCBFF1 /* Pods_Do_Not_Sleep_AR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				3BDD9AFE2003E63F0012ACDB /* Do Not Sleep ARTests */,
 				3BDD9B092003E63F0012ACDB /* Do Not Sleep ARUITests */,
 				3BDD9AE82003E63E0012ACDB /* Products */,
+				C92E7C5BEFCFED610B40DE7D /* Pods */,
+				89E7802FCA7F32A60C50FC0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				3BDD9AEA2003E63E0012ACDB /* AppDelegate.swift */,
-				3BDD9AEC2003E63E0012ACDB /* ViewController.swift */,
 				3BDD9AEE2003E63E0012ACDB /* Main.storyboard */,
 				3BDD9AF12003E63E0012ACDB /* Assets.xcassets */,
 				3BDD9AF32003E63E0012ACDB /* LaunchScreen.storyboard */,
 				3BDD9AF62003E63E0012ACDB /* Info.plist */,
+				3BDD9B182003EA9E0012ACDB /* ViewController.swift */,
 			);
 			path = "Do Not Sleep AR";
 			sourceTree = "<group>";
@@ -125,6 +132,23 @@
 			path = "Do Not Sleep ARUITests";
 			sourceTree = "<group>";
 		};
+		89E7802FCA7F32A60C50FC0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC48BA965EE44F290FE93C28 /* Pods_Do_Not_Sleep_AR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92E7C5BEFCFED610B40DE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87409FA795B0150CB4046692 /* Pods-Do Not Sleep AR.debug.xcconfig */,
+				A0E86B504093F833EB886EBC /* Pods-Do Not Sleep AR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BDD9B0F2003E63F0012ACDB /* Build configuration list for PBXNativeTarget "Do Not Sleep AR" */;
 			buildPhases = (
+				33830980DDD2029D0238C626 /* [CP] Check Pods Manifest.lock */,
 				3BDD9AE32003E63E0012ACDB /* Sources */,
 				3BDD9AE42003E63E0012ACDB /* Frameworks */,
 				3BDD9AE52003E63E0012ACDB /* Resources */,
+				195ED25116BAC4C1BD134937 /* [CP] Embed Pods Frameworks */,
+				1FDA6996F11CF63AF27F2091 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +281,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		195ED25116BAC4C1BD134937 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Do Not Sleep AR/Pods-Do Not Sleep AR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Each/Each.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Each.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Do Not Sleep AR/Pods-Do Not Sleep AR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FDA6996F11CF63AF27F2091 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Do Not Sleep AR/Pods-Do Not Sleep AR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33830980DDD2029D0238C626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Do Not Sleep AR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BDD9AE32003E63E0012ACDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BDD9AED2003E63E0012ACDB /* ViewController.swift in Sources */,
+				3BDD9B192003EA9E0012ACDB /* ViewController.swift in Sources */,
 				3BDD9AEB2003E63E0012ACDB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +505,7 @@
 		};
 		3BDD9B102003E63F0012ACDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87409FA795B0150CB4046692 /* Pods-Do Not Sleep AR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +521,7 @@
 		};
 		3BDD9B112003E63F0012ACDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E86B504093F833EB886EBC /* Pods-Do Not Sleep AR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
