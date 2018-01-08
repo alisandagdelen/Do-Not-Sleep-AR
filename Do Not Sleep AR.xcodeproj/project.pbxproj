@@ -13,7 +13,20 @@
 		3BDD9AF52003E63E0012ACDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9AF32003E63E0012ACDB /* LaunchScreen.storyboard */; };
 		3BDD9B002003E63F0012ACDB /* Do_Not_Sleep_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD9AFF2003E63F0012ACDB /* Do_Not_Sleep_ARTests.swift */; };
 		3BDD9B0B2003E63F0012ACDB /* Do_Not_Sleep_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD9B0A2003E63F0012ACDB /* Do_Not_Sleep_ARUITests.swift */; };
-		3BDD9B192003EA9E0012ACDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD9B182003EA9E0012ACDB /* ViewController.swift */; };
+		3BDD9B192003EA9E0012ACDB /* GameSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD9B182003EA9E0012ACDB /* GameSceneController.swift */; };
+		3BDD9B292003F4210012ACDB /* StrBucks2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B1D2003F41E0012ACDB /* StrBucks2.png */; };
+		3BDD9B2A2003F4210012ACDB /* StrBucks1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B1E2003F41E0012ACDB /* StrBucks1.png */; };
+		3BDD9B2B2003F4210012ACDB /* StrBucks6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B1F2003F41E0012ACDB /* StrBucks6.png */; };
+		3BDD9B2C2003F4210012ACDB /* StrBucks7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B202003F41F0012ACDB /* StrBucks7.png */; };
+		3BDD9B2D2003F4210012ACDB /* StrBucks5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B212003F41F0012ACDB /* StrBucks5.png */; };
+		3BDD9B2E2003F4210012ACDB /* StrBucks8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B222003F41F0012ACDB /* StrBucks8.png */; };
+		3BDD9B2F2003F4210012ACDB /* StrBucks9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B232003F41F0012ACDB /* StrBucks9.png */; };
+		3BDD9B302003F4210012ACDB /* StrBucks11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B242003F41F0012ACDB /* StrBucks11.png */; };
+		3BDD9B312003F4210012ACDB /* StrBucks3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B252003F4200012ACDB /* StrBucks3.png */; };
+		3BDD9B322003F4210012ACDB /* StrBucks4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B262003F4200012ACDB /* StrBucks4.png */; };
+		3BDD9B332003F4210012ACDB /* Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B272003F4200012ACDB /* Text.png */; };
+		3BDD9B342003F4210012ACDB /* StrBucks10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B282003F4210012ACDB /* StrBucks10.png */; };
+		3BDD9B372003F8C20012ACDB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD9B362003F8C20012ACDB /* art.scnassets */; };
 		E0E000F76D47DAB027BCBFF1 /* Pods_Do_Not_Sleep_AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48BA965EE44F290FE93C28 /* Pods_Do_Not_Sleep_AR.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +60,20 @@
 		3BDD9B062003E63F0012ACDB /* Do Not Sleep ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do Not Sleep ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDD9B0A2003E63F0012ACDB /* Do_Not_Sleep_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_Not_Sleep_ARUITests.swift; sourceTree = "<group>"; };
 		3BDD9B0C2003E63F0012ACDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BDD9B182003EA9E0012ACDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BDD9B182003EA9E0012ACDB /* GameSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneController.swift; sourceTree = "<group>"; };
+		3BDD9B1D2003F41E0012ACDB /* StrBucks2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks2.png; sourceTree = "<group>"; };
+		3BDD9B1E2003F41E0012ACDB /* StrBucks1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks1.png; sourceTree = "<group>"; };
+		3BDD9B1F2003F41E0012ACDB /* StrBucks6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks6.png; sourceTree = "<group>"; };
+		3BDD9B202003F41F0012ACDB /* StrBucks7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks7.png; sourceTree = "<group>"; };
+		3BDD9B212003F41F0012ACDB /* StrBucks5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks5.png; sourceTree = "<group>"; };
+		3BDD9B222003F41F0012ACDB /* StrBucks8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks8.png; sourceTree = "<group>"; };
+		3BDD9B232003F41F0012ACDB /* StrBucks9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks9.png; sourceTree = "<group>"; };
+		3BDD9B242003F41F0012ACDB /* StrBucks11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks11.png; sourceTree = "<group>"; };
+		3BDD9B252003F4200012ACDB /* StrBucks3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks3.png; sourceTree = "<group>"; };
+		3BDD9B262003F4200012ACDB /* StrBucks4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks4.png; sourceTree = "<group>"; };
+		3BDD9B272003F4200012ACDB /* Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text.png; sourceTree = "<group>"; };
+		3BDD9B282003F4210012ACDB /* StrBucks10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrBucks10.png; sourceTree = "<group>"; };
+		3BDD9B362003F8C20012ACDB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		87409FA795B0150CB4046692 /* Pods-Do Not Sleep AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do Not Sleep AR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Do Not Sleep AR/Pods-Do Not Sleep AR.debug.xcconfig"; sourceTree = "<group>"; };
 		A0E86B504093F833EB886EBC /* Pods-Do Not Sleep AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Do Not Sleep AR.release.xcconfig"; path = "Pods/Target Support Files/Pods-Do Not Sleep AR/Pods-Do Not Sleep AR.release.xcconfig"; sourceTree = "<group>"; };
 		AC48BA965EE44F290FE93C28 /* Pods_Do_Not_Sleep_AR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Do_Not_Sleep_AR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,12 +130,14 @@
 		3BDD9AE92003E63E0012ACDB /* Do Not Sleep AR */ = {
 			isa = PBXGroup;
 			children = (
+				3BDD9B1C2003F40C0012ACDB /* CoffeeTextures */,
 				3BDD9AEA2003E63E0012ACDB /* AppDelegate.swift */,
 				3BDD9AEE2003E63E0012ACDB /* Main.storyboard */,
 				3BDD9AF12003E63E0012ACDB /* Assets.xcassets */,
 				3BDD9AF32003E63E0012ACDB /* LaunchScreen.storyboard */,
 				3BDD9AF62003E63E0012ACDB /* Info.plist */,
-				3BDD9B182003EA9E0012ACDB /* ViewController.swift */,
+				3BDD9B182003EA9E0012ACDB /* GameSceneController.swift */,
+				3BDD9B362003F8C20012ACDB /* art.scnassets */,
 			);
 			path = "Do Not Sleep AR";
 			sourceTree = "<group>";
@@ -130,6 +158,25 @@
 				3BDD9B0C2003E63F0012ACDB /* Info.plist */,
 			);
 			path = "Do Not Sleep ARUITests";
+			sourceTree = "<group>";
+		};
+		3BDD9B1C2003F40C0012ACDB /* CoffeeTextures */ = {
+			isa = PBXGroup;
+			children = (
+				3BDD9B1E2003F41E0012ACDB /* StrBucks1.png */,
+				3BDD9B1D2003F41E0012ACDB /* StrBucks2.png */,
+				3BDD9B252003F4200012ACDB /* StrBucks3.png */,
+				3BDD9B262003F4200012ACDB /* StrBucks4.png */,
+				3BDD9B212003F41F0012ACDB /* StrBucks5.png */,
+				3BDD9B1F2003F41E0012ACDB /* StrBucks6.png */,
+				3BDD9B202003F41F0012ACDB /* StrBucks7.png */,
+				3BDD9B222003F41F0012ACDB /* StrBucks8.png */,
+				3BDD9B232003F41F0012ACDB /* StrBucks9.png */,
+				3BDD9B282003F4210012ACDB /* StrBucks10.png */,
+				3BDD9B242003F41F0012ACDB /* StrBucks11.png */,
+				3BDD9B272003F4200012ACDB /* Text.png */,
+			);
+			path = CoffeeTextures;
 			sourceTree = "<group>";
 		};
 		89E7802FCA7F32A60C50FC0E /* Frameworks */ = {
@@ -259,9 +306,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BDD9B312003F4210012ACDB /* StrBucks3.png in Resources */,
+				3BDD9B2C2003F4210012ACDB /* StrBucks7.png in Resources */,
+				3BDD9B2B2003F4210012ACDB /* StrBucks6.png in Resources */,
+				3BDD9B342003F4210012ACDB /* StrBucks10.png in Resources */,
 				3BDD9AF52003E63E0012ACDB /* LaunchScreen.storyboard in Resources */,
+				3BDD9B302003F4210012ACDB /* StrBucks11.png in Resources */,
+				3BDD9B2D2003F4210012ACDB /* StrBucks5.png in Resources */,
 				3BDD9AF22003E63E0012ACDB /* Assets.xcassets in Resources */,
 				3BDD9AF02003E63E0012ACDB /* Main.storyboard in Resources */,
+				3BDD9B372003F8C20012ACDB /* art.scnassets in Resources */,
+				3BDD9B322003F4210012ACDB /* StrBucks4.png in Resources */,
+				3BDD9B2E2003F4210012ACDB /* StrBucks8.png in Resources */,
+				3BDD9B2A2003F4210012ACDB /* StrBucks1.png in Resources */,
+				3BDD9B332003F4210012ACDB /* Text.png in Resources */,
+				3BDD9B292003F4210012ACDB /* StrBucks2.png in Resources */,
+				3BDD9B2F2003F4210012ACDB /* StrBucks9.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BDD9B192003EA9E0012ACDB /* ViewController.swift in Sources */,
+				3BDD9B192003EA9E0012ACDB /* GameSceneController.swift in Sources */,
 				3BDD9AEB2003E63E0012ACDB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +571,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BE9CR5D8N;
 				INFOPLIST_FILE = "Do Not Sleep AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisandagdelen.Do-Not-Sleep-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,6 +588,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BE9CR5D8N;
 				INFOPLIST_FILE = "Do Not Sleep AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisandagdelen.Do-Not-Sleep-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
