@@ -87,11 +87,11 @@ class GameSceneController: UIViewController {
     }
     
     func addNode() {
-        let jellyFishScene = SCNScene(named: "art.scnassets/coffeMug.scn")
-        let jellyfishNode = jellyFishScene?.rootNode.childNode(withName: "coffeMug", recursively: false)
-        jellyfishNode?.position = SCNVector3(randomNumbers(firstNum: 0, secondNum: 2),randomNumbers(firstNum: -0.5, secondNum: 0.5),randomNumbers(firstNum: -1, secondNum: 1))
-        if let jellyfishNode = jellyfishNode {
-            self.sceneView.scene.rootNode.addChildNode(jellyfishNode)
+        let coffeeCupScene = SCNScene(named: "art.scnassets/coffeMug.scn")
+        let coffeeCupNode = coffeeCupScene?.rootNode.childNode(withName: "coffeMug", recursively: false)
+        coffeeCupNode?.position = SCNVector3(randomNumbers(firstNum: 0, secondNum: 2),randomNumbers(firstNum: -0.5, secondNum: 0.5),randomNumbers(firstNum: -1, secondNum: 1))
+        if let coffeeCupNode = coffeeCupNode {
+            self.sceneView.scene.rootNode.addChildNode(coffeeCupNode)
         }
     }
     
